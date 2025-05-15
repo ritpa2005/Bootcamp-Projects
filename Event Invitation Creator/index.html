@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create an Event Invite</h1>
+        <form>
+            <label for="name">Event Name</label>
+            <input type="text" name="name" placeholder="Kerala JS Meetup" required>
+            <br>
+            <label for="date">Event Date</label>
+            <input type="date" name="date" required>
+            <br>
+            <label for="start">Start Time</label>
+            <input type="time" name="start" required>
+            <br>
+            <label for="end">End Time</label>
+            <input type="time" name="end" required>
+            <br>
+            <label for="desc">Event Description</label>
+            <textarea name="desc" rows="4" cols="20" placeholder="Brief description of the event" required></textarea>
+            <br>
+            <label for="loc">Location</label>
+            <input type="text" name="loc" placeholder="Location of the event" required>
+            <br>
+            <button id="submit-btn" type="submit"> Create Event </button>
+        </form>
+    </div>
+    <dialog id="alert-box">
+        <span onclick="closeDialog()">&#10006</span>
+        <p>Please fill in all fields.</p>
+    </dialog>
+</body>
+<script src="script.js"></script>
+</html>

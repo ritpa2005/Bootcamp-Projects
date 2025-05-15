@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius:6px;
+    border: solid 0.5px grey;
+}
+
+td{
+    height:3em;
+    width:3em;
+    border: solid 1px;
+    text-align: center;
+}
+
+table{
+    border-spacing:8px;
+}
+
+input{
+    height:30px;
+}
+
+#submit-btn{
+    font-weight: bold;
+    height: 35px;
+    width: 10em;
+    margin:10px;
+}
+
+#congrats{
+    font-weight: bold;
+}
+
+#row1 > #0{
+    color:white;
+}

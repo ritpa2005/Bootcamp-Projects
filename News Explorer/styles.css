@@ -1,0 +1,25 @@
+.selected{
+    background-color: #000;
+    color: white;
+}
+.card{
+    border-radius: 4px;
+    border: solid 2px black;
+    height: 300px;
+    padding: 20px;
+    min-width: 45%;
+    max-width: 50%;
+    overflow: hidden;
+}
+.first-card{
+    width:100%;
+}
+.searchedWord{
+    background-color: red;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40% 40%;
+}
