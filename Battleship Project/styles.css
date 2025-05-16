@@ -1,0 +1,55 @@
+body{
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:white;
+    text-decoration: underline rgb(255, 97, 97);
+}
+
+td{
+    border: 1px white solid;
+    height: 80px;
+    width:80px;
+}
+img{
+    height:80px;
+    width:80px;
+}
+
+h4,p,ol{
+    color: white;
+}
+
+button{
+    box-shadow: lightcoral 4px 9px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+table{
+    border-spacing: 0;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.battleship{
+    background-image: url("https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/battleship-image_e6bWCZ1w4.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.water{
+    background-image: url("https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/seamless-pattern-waves-various-shades-blue-vector-underwater-design-96891651_aSd5pmbaM.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
